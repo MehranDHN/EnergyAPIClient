@@ -5,6 +5,7 @@
     <UserSecretsId>aspnet-EnergyAPIClient-B01C18BA-1D13-4486-984C-FCE759330CD6</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="CQRS\Building\Query\" />
-    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
