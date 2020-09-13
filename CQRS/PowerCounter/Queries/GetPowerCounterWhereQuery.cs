@@ -1,5 +1,5 @@
-﻿using EnergyAPIClient.Model.DTO;
-using EnergyAPIClient.Model.Models;
+﻿using EnergyApiClient.DomainModels.DTO;
+using EnergyApiClient.DomainModels.Models;
 using MediatR;
 using System;
 using System.Collections.Generic;

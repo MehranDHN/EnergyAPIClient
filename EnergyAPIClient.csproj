@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EnergyAPIClient.Model\EnergyAPIClient.Model.csproj" />
+    <ProjectReference Include="EnergyApiClient.DomainModels\EnergyApiClient.DomainModels.csproj" />
   </ItemGroup>
 
 </Project>

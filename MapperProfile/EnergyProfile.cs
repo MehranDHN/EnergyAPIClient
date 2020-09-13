@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using EnergyAPIClient.Model.DTO;
-using EnergyAPIClient.Model.Models;
+using EnergyApiClient.DomainModels.DTO;
+using EnergyApiClient.DomainModels.Models;
 using EnergyAPIClient.ORM;
 using System;
 using System.Collections.Generic;

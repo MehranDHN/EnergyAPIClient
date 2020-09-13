@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using EnergyAPIClient.Model.Models;
+using EnergyApiClient.DomainModels.Models;
 
 namespace EnergyAPIClient.ORM
 {

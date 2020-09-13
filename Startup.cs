@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using EnergyAPIClient.Configuration;
+using MediatR;
 
 namespace EnergyAPIClient
 {
@@ -35,6 +36,8 @@ namespace EnergyAPIClient
 
             services.AddDatabaseConfiguration(Configuration);
             services.AddAutoMapperConfiguration();
+
+            services.AddMediatR(typeof(Startup));
 
             services.AddSwaggerGen(options =>
             {

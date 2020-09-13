@@ -1,4 +1,4 @@
-﻿using EnergyAPIClient.Model.DTO;
+﻿using EnergyApiClient.DomainModels.DTO;
 using MediatR;
 using System;
 using System.Collections.Generic;

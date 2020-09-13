@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using EnergyAPIClient.Models;
 using EnergyAPIClient.ORM;
 using AutoMapper;
-using EnergyAPIClient.Model.DTO;
+using EnergyApiClient.DomainModels.DTO;
 using Microsoft.EntityFrameworkCore;
 
 namespace EnergyAPIClient.Controllers
@@ -27,8 +27,8 @@ namespace EnergyAPIClient.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var data = _context.PowerSrcInfo.Include(p => p.TargetCounter).ToList();
-            List<PowerSrcInfoDto> dtoList = _mapper.Map<List<PowerSrcInfoDto>>(data);
+            //var data = _context.PowerSrcInfo.Include(p => p.TargetCounter).ToList();
+            //List<PowerSrcInfoDto> dtoList = _mapper.Map<List<PowerSrcInfoDto>>(data);
             return View();
         }
         [HttpGet]

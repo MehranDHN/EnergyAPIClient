@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyAPIClient", "EnergyAPIClient.csproj", "{0B87AD1A-1474-4794-9F40-1CED185AEF33}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyAPIClient.Model", "..\EnergyAPIClient.Model\EnergyAPIClient.Model.csproj", "{9C49B61D-9C99-4FC3-BC35-0F6C59B5F55E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyApiClient.DomainModels", "EnergyApiClient.DomainModels\EnergyApiClient.DomainModels.csproj", "{57785663-4BEA-40DD-BC57-C0BC65BE7039}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{0B87AD1A-1474-4794-9F40-1CED185AEF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B87AD1A-1474-4794-9F40-1CED185AEF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B87AD1A-1474-4794-9F40-1CED185AEF33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C49B61D-9C99-4FC3-BC35-0F6C59B5F55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C49B61D-9C99-4FC3-BC35-0F6C59B5F55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C49B61D-9C99-4FC3-BC35-0F6C59B5F55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C49B61D-9C99-4FC3-BC35-0F6C59B5F55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57785663-4BEA-40DD-BC57-C0BC65BE7039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57785663-4BEA-40DD-BC57-C0BC65BE7039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57785663-4BEA-40DD-BC57-C0BC65BE7039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57785663-4BEA-40DD-BC57-C0BC65BE7039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

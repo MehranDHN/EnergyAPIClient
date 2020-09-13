@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using EnergyAPIClient.Model.DTO;
+using EnergyApiClient.DomainModels.DTO;
 using EnergyAPIClient.ORM;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
